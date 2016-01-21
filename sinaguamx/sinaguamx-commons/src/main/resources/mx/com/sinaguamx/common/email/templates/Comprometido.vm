@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Mailing MyT</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+a:link {
+  color: #61c7dd;
+}
+a:hover {
+  color: #59b8cc;
+}
+a:visited {
+   color: #d3a53a;
+}
+a:active {
+   color: #b26b18;
+}
+</style>
+</head>
+<body bgcolor="#161616" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+   <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+         <td valign="top" bgcolor="#161616" style="padding-top: 5%">
+            <table width="600" border="0" align="center" cellpadding="0" cellspacing="0" style="font: 14px Helvetica, Arial, sans-serif; color: #767572; line-height: 100%;">
+               <tr>
+                  <td valign="top">
+                     <table width="600" height="204" border="0" cellpadding="0" cellspacing="0">
+                        <tr style="padding-top: 15px;">
+                           <td style="height: 63px;">
+                              <table width="100%" border="0" cellspacing="0" cellpadding="10">
+                                 <tr>
+                                    <td style="font-family: Helvetica, Arial, sans-serif; font-size: 11px; color: #808080; padding-top: 15px;"> 
+                                       Estás recibiendo este correo porque te has comprometido con una acción social. Si por algún motivo esta información no te es familiar mándanos un correo a: 
+                                       <a href="mailto:quejas@myt.com.mx" alt="Mail de contacto">
+                                          accionsocial@myt.org.mx
+                                       </a>
+                                    </td>
+                                 </tr>
+                              </table>
+                           </td>
+                           <td style="height: 56px;">
+                              <img src="cid:arrow" width="96" height="56" alt="" style="display: block;">
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" style="background-image: cid:header_top_separator; background-repeat: no-repeat; height: 7px;">
+                              <img src="cid:header_top_separator" alt="" width="600" height="7" style="display: block;"/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top" style="width: 420px; height: 125px;">
+                              <table width="100%" border="0" cellspacing="0" cellpadding="0" style="height: 125px;">
+                                 <tr>
+                                    <td valign="top" bgcolor="#161616" style="height: 10px;">
+                                       &nbsp;
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td valign="top" bgcolor="#161616" style="height: 30px; font-family: Helvetica, Arial, sans-serif; font-size: 30px; font-weight: bold; color: #b26b18; letter-spacing: -1px; line-height: 90%;">
+                                       ¡ Tus acciones hablan por ti !
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td valign="top" bgcolor="#161616" style="height: 25px; font-family: Helvetica, Arial, sans-serif; font-size: 19px; font-weight: bold; color: #4e4e4e; letter-spacing: -1px;">
+                                       ${nombreVisitante}
+                                    </td>
+                                 </tr>
+                              </table>
+                           </td>
+                           <td valign="top">
+                              <img src="cid:logo-MyT" width="172" height="52" alt="" style="padding-top: 18%">
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" valign="top" style="height: 16px; background-image: cid:header_border; background-repeat: no-repeat;">
+                              <img src="cid:header_border" width="600" height="16"/>
+                           </td>
+                        </tr>
+                     </table>
+                  </td>
+               </tr>
+               <tr>
+                  <td valign="top" bgcolor="#161616">
+                     <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                           <td valign="top" style="height: 35px;">
+                              &nbsp;
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+                                    <td style="font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: bold; color: #767572; letter-spacing: -1px; line-height: 16px">
+                                       Tu compromiso en el museo es:
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td style="height: 10px;">
+                                       &nbsp;
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td style="font-family: Helvetica, Arial, sans-serif; font-size: 26px; font-weight: bold; color: #767572; letter-spacing: -1px; line-height: 26px">
+                                       ${accionNombre}
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td style="height: 30px;">
+                                       &nbsp;
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td style="font-family: Helvetica, Arial, sans-serif; color: #767572; line-height: 16px">
+                                       ${accionAyuda}
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td style="font-family: Helvetica, Arial, sans-serif; color: #767572; line-height: 16px; font-size: 16px;">
+                                       Adjunto encontrarás el instructivo y el material necesario para realizar esta acción. Primero lee el instructivo para entender más a fondo como realizarla. 
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td style="height: 15px;">
+                                       &nbsp;
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td style="font-family: Helvetica, Arial, sans-serif; color: #b26b18; line-height: 16px; font-size: 16px;">
+                                       Cuando cumplas la acción no olvides publicarla en el muro de Facebook del museo
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td style="height: 15px;">
+                                       &nbsp;
+                                    </td>
+                                 </tr>                              
+                                 <tr>
+                                    <td style="font-family: Helvetica, Arial, sans-serif; color: #b26b18; line-height: 20px; font-size: 20px;">
+                                        Porque con el esfuerzo de muchos provocaremos un gran cambio
+                                    </td>
+                                 </tr>                              
+                              </table>
+                           </td>
+                        </tr>
+                     </table>
+                  </td>
+               </tr>
+            <tr>
+               <td>
+                  <table width="600" border="0" cellpadding="0" cellspacing="0" style="padding-top: 10px;">
+                     <tr>
+                        <td colspan="6">
+                           <img src="cid:footer_05" width="599" height="25" alt="">
+                        </td>
+                        <td width="1" rowspan="3">
+                           <img src="cid:footer_02" width="1" height="140" alt="">
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="179" valign="top">
+                           <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                 <td width="21%" valign="top">
+                                    <img src="cid:icon_email_friend" width="37" height="37" alt="">
+                                 </td>
+                                 <td width="10%" valign="top">
+                                    &nbsp;
+                                 </td>
+                                 <td width="69%" valign="top">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                       <tr>
+                                          <td>
+                                             <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                   <td style="font-family: Helvetica, Arial, sans-serif; font-size: 15px; font-weight: bold; color: #f9f8f2;">
+                                                      Sugerencias:
+                                                   </td>
+                                                </tr>
+                                             </table>
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td valign="top">
+                                             &nbsp;
+                                          </td>
+                                       </tr>
+                                       <tr>
+                                          <td valign="top" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px; color: #767572;">
+                                             Si tienes algún<br/> 
+                                             comentario <br/>
+                                             <a href="mailto:sugerencias@myt.com.mx">
+                                                sugerencias@myt.com.mx
+                                             </a>
+                                         </td>
+                                       </tr>
+                                    </table>
+                                 </td>
+                              </tr>
+                           </table>
+                           <p style="font-size: 16px; font-weight: bold; margin: 0; padding: 0 0 6px 0;">
+                              &nbsp;
+                           </p>
+                        </td>
+                        <td width="30" valign="top">
+                           &nbsp;
+                        </td>
+                        <td width="36" rowspan="2" valign="top">
+                           <img src="cid:icon-address" width="36" height="37" alt="">
+                        </td>
+                        <td width="16" rowspan="2" valign="top">
+                           &nbsp;
+                        </td>
+                        <td width="170" valign="top">
+                           <p style="font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: bold; color: #767572; margin: 0; padding: 0 0 6px 0;">
+                              Dirección:
+                           </p>
+                           <p style="font-family: Helvetica, Arial, sans-serif; font-size: 11px; color: #767572; margin: 0; padding: 0; letter-spacing: -0.3px;">
+                              Plaza Juárez, Centro Histórico Frente al Hemiciclo a Juárez en la Alameda, a un costado de la Secretaría de Relaciones Exteriores. Ciudad de México. 
+                              <a href="#">
+                                 (55) 5130 5555
+                              </a>
+                           </p>
+                        </td>
+                        <td valign="top" style="text-align: right;">
+                           <a href="https://www.facebook.com/MuseoMemoriayTolerancia"><img src="cid:facebook_boton" style="width: 65%; padding-top: 10px;"></a>
+                        </td>
+                     </table>
+                  </td>
+               </tr>
+            </table>
+         </td>
+      </tr>
+   </table>
+</body>
+</html>

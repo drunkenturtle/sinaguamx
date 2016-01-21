@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd">
+
+	<bean name="ApplicationDAO" class="mx.com.sinaguamx.dao.impl.ApplicationDAOImpl">
+		<property name="jdbcTemplate" ref="app_jdbcTemplate"/>
+
+    <property name="queryParameters">
+      <bean class="mx.com.sinaguamx.dao.util.QueryParameters">
+          <property name="select">
+	          <value><![CDATA[
+
+		        ]]></value>
+          </property>
+          <property name="from">
+            <value><![CDATA[
+
+            ]]></value>
+          </property>
+          <property name="where">
+            <value><![CDATA[
+
+            ]]></value>
+          </property>
+          <property name="options">
+            <props>
+              <prop key="WHERE_QUERY_OPTION"><![CDATA[
+							]]></prop>
+            </props>
+          </property>
+      </bean>
+    </property>
+
+		<property name="queries">
+			<props>
+   			<prop key="NOMBRE_QUERY"><![CDATA[
+
+				]]></prop>
+			</props>
+		</property>
+	</bean>
+</beans>

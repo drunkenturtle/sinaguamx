@@ -1,0 +1,42 @@
+{
+  "name": "sinaguamx",
+  "description": "sinaguamx",
+  "version": "0.0.1-SNAPSHOT",
+  "homepage": "",
+  "author": {
+    "name": "",
+    "email": ""
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "",
+      "url": ""
+    }
+  ],
+  "engines": {
+    "node": ">= 5.3.0"
+  },
+  "keywords": [],
+  "main": "app.js",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "react-router": "^0.13.4",
+    "request": "^2.65.0",
+    "grunt-react": "^0.12.3",
+    "grunt-browserify": "^4.0.1",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.1",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-uglify": "^0.9.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-concat": "^0.5.1"
+  }
+}

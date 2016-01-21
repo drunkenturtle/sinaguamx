@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context-4.2.xsd">
+
+  <!-- configuracion base de datos -->
+  <!-- Solo si no se desea hacer la contiguracion en el servidor por ejemplo para JUnitTest-->
+ 	<bean id="app_dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+  	<property name="driverClassName" value="org.mariadb.jdbc.Driver" />
+  	<property name="url" value="jdbc:mariadb://192.168.4.143:3306/sinaguamx" />
+  	<property name="username" value="sinaguamx_client"/>
+  	<property name="password" value="XxXx2048" />
+	</bean>
+
+<!-- 	<bean id="app_dataSource" class="org.springframework.jndi.JndiObjectFactoryBean"> -->
+<!--     	<property name="jndiName" value="java:jboss/jndi/sinaguamx" /> -->
+<!-- 	</bean> -->
+
+  <bean id="app_jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+    <property name="dataSource" ref="app_dataSource" />
+  </bean>
+
+</beans>
